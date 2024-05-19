@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow DOM and Shadow Root</title>
+
+    <!-- internal css -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            text-align: center;
+            padding: 150px 0;
+        }
+        h4{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shadow DOM and Shadow Root</h1>
+    <div id="shadowElement"></div>
+    <div id="nonShadowElement">
+        <h4>This is a Non shadow element.</h4>
+    </div>
+
+    <!-- script.js included -->
+    <script src="script.js"></script>
+</body>
+</html>
