@@ -1,4 +1,4 @@
-# JavaScript Lab
+# JavaScript Lab test
 
 Welcome to the JavaScript Lab repository! 
 
